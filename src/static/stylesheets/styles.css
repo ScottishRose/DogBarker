@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://s-media-cache-ak0.pinimg.com/236x/41/60/87/41608773489e2f59cf6262eb9dddc742.jpg');
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: sienna;
+  color: #54381e;
+}
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 30px;
+  color: #54381e;
+}
+
+.hidden {
+  display: none;
+}
+
+form.bark-display {
+  width: 75%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  border: 5px solid sienna;
+  box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  margin: 0px 0 10px 0;
+}
+
+form.bark-display input[name="barker"] {
+  width: 25%;
+  display: inline-block;
+}
+
+form.bark-display input[name="content"] {
+  width: 70%;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.wag-button {
+  display: inline-block;
+  color: white;
+}
+
+.active-buttons {
+  display: inline-block;
+  color: white;
+}
+
+.not-saved input {
+  background-color: #634b30;
+  color: white;
+}
+
+.saved input {
+  background-color: #C7AE93;
+  color: sienna;
+}
+
